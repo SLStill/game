@@ -20,4 +20,13 @@ const fighter = {
     }
 };
 
+const boss = {
+    name: 'Mickey',
+    surname: 'Moerdyk',
+    age: 28,
+    statement(){
+        return 'I eat kings for breakfast!';
+    }
+}
+
 console.log(fighter.statement());
